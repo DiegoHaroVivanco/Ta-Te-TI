@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- class="contenedor" -->
+    <div class="contenedor">
+        <div class="titulo">
+            <!--  <h1>A H O R C A D O</h1> -->
+            <img src="./img/titulo.png" alt="titulo" class="img-titulo" />
+        </div>
+
+        <div class="contenedor-img">
+            <div class="info">
+                <label for="">ACIERTOS</label>
+                <br />
+                <input type="text" name="" id="aciertos" disabled />
+
+                <br />
+                <label for="">ERRORES</label>
+                <br />
+                <input type="text" name="" id="errores" disabled />
+                <br />
+
+                <button onclick="location.reload()" id="btn">
+						NUEVO JUEGO
+					</button>
+            </div>
+
+            <div class="imagen">
+                <img class="imge" alt="" id="horca" />
+            </div>
+        </div>
+
+        <div class="letras" id="container-letras"></div>
+
+        <div class="input-letras">
+            <input type="text" id="letra" name="Hola" placeholder="Ingrese una letra" maxlength="1" />
+            <button id="Evaluar" class="btn-evaluar">Evaluar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

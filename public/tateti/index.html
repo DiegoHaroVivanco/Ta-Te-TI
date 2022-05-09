@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ta-Te-Ti</title> 	
+        <link rel="icon" href="./img/ta-te-ti.png" type="image/png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Ta-Te-Ti</h1>
+        <div class="container-main">
+            <p id="msj"></p>
+
+            <div class="table-main">
+                <div class="table" id="elemento-1"></div>
+                <div class="table" id="elemento-2"></div>
+                <div class="table" id="elemento-3"></div>
+                <div class="table" id="elemento-4"></div>
+                <div class="table" id="elemento-5"></div>
+                <div class="table" id="elemento-6"></div>
+                <div class="table" id="elemento-7"></div>
+                <div class="table" id="elemento-8"></div>
+                <div class="table" id="elemento-9"></div>
+            </div>
+            
+            <div class="container-button">
+                <button class="boton" id="btnreset">Reiniciar</button>
+                <button class="boton" id="btnjugar">Jugar de nuevo</button>
+            </div>
+
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>  <!--enlazo la libreria de soket.io para el front-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- https://sweetalert2.github.io/#usage -->
+        <script type="module" src="app.js"></script>
+    </body>
+</html>

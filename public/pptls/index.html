@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra papel tijera lagarto Spock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap" rel="stylesheet"> 
+</head>
+<body onload="startGame()">
+    <div class="invite">
+        <p>Envía esta url a un amigo!</p>
+        <input type="text" readonly id="room"/> 
+    </div>
+    <div class="game">
+        <div class="game_title"><p>Piedra papel tijera lagarto Spock</p></div>
+        <div class="game_result"><p id="text"></p></div>
+        <div class="game_choices">
+            <img class="choice" id="0" src="./img/rock.png" alt="Rock">
+            <img class="choice" id="1" src="./img/paper.png" alt="Paper">
+            <img class="choice" id="2" src="./img/scissors.png" alt="Scissors">
+            <img class="choice" id="3" src="./img/lizard.png" alt="Lizard">
+            <img class="choice" id="4" src="./img/spock.png" alt="Spock">
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

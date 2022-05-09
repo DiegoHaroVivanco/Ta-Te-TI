@@ -1,0 +1,62 @@
+body{
+    background: url('./img/fondo-papel.jpg');
+    background-size: 100%;
+}
+
+#title{
+    text-align: center;
+    float: none;
+    font-family: 'Press Start 2P';
+    color: #1805db;
+}
+
+.table-main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+} 
+
+.table {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 2px solid #d4d0d0;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    color: #424242;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-main .table:hover{
+    transform: translateY(-1px) scale(1);
+    filter: none;
+}
+
+#msj{
+    color: blue;
+    text-align: center;
+    float: none;
+    font-style: initial;
+    font-family: 'Press Start 2P';    
+}
+
+.container-button{
+    text-align: center;
+
+}
+
+.boton{
+    background-color: transparent;
+    border: none;
+    color: #1805db;
+    cursor: pointer;
+    font-family: 'Press Start 2P';
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 25px;
+}

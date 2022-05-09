@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+    line-height: 1.6;
+}
+#title{
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 25px;
+    font-size: 60px;
+}
+.games{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+.games .container-img{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    border-color: #f5f5f5;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0 2px 2px #16161683; 
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all .25s;
+}
+.games .container-img:hover{
+    transform: translateY(-1px) scale(1.02);
+    filter: none;
+    box-shadow: 0 12px 16px #16161683;
+}
+.games .container-img img{
+    width: 330px;
+    height: 330px;
+}
+
+.game_3{
+    background-color: #171010;
+}
